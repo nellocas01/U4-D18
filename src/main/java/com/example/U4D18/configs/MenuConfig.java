@@ -15,7 +15,7 @@ import com.example.U4D18.entities.toppings.OnionTopping;
 @Configuration
 public class MenuConfig {
 	@Bean
-	@Scope("prototype")
+	@Scope("singleton")
 	Menu getMenu() {
 		Menu menu = new Menu();
 
